@@ -1,0 +1,7 @@
+csv/
+node_modules/
+log/
+tmp/
+.DS_Store
+*.log
+coverage/

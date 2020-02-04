@@ -1,0 +1,11 @@
+<h2>You viewing: {{podcast.title}} </h2>
+
+<h4>{{podcast.title}} is a part of the {{podcast.network}} network</h4>
+
+<p>Description: {{podcast.description}}</p>
+
+{{#if podcast.image}}
+  <img src={{podcast.image}} alt="podcast-image">
+{{else}}
+  <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fchangeourcity.com%2Fwp-content%2Fuploads%2F2015%2F09%2Fpodcast-icon.jpg&f=1" alt="podcast-image">
+{{/if}}
