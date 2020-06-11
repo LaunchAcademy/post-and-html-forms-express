@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "./node_modules/.bin/nodemon src/app.js",
-    "dev:debug": "./node_modules/.bin/nodemon --inspect src/app.js"
+    "dev:debug": "./node_modules/.bin/nodemon --inspect-brk src/app.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
